@@ -1,0 +1,51 @@
+@import url(../customerCommonComponant/boxList.css);
+
+.filteringBox{
+    width : 70%;
+    font-size: 1.4rem;
+    display: flex;
+    border: 1px solid #aaaaaa;
+    margin-bottom: 20px ;
+}
+
+.filteringBox li{
+    width : 20%;
+    padding: 15px 0;
+    display : flex;
+    justify-content: center;
+    border-right: 1px solid #aaaaaa;
+    cursor : pointer;
+}
+
+.filteringBox li:nth-child(5){
+    border-right: none;
+}
+
+.filteringBox li:hover{
+    color : white;
+    background-color: black;
+}
+
+tr th:nth-child(1){
+    width: 70px;
+}
+
+.tableTr td:nth-child(1){
+    width: 70px;
+}
+
+tr th:nth-child(2){
+    width: 300px;
+}
+
+.tableTr td:nth-child(2){
+    width: 300px;
+}
+
+tr th:nth-child(4){
+    width: 80px;
+}
+
+.tableTr td:nth-child(4){
+    width: 80px;
+}

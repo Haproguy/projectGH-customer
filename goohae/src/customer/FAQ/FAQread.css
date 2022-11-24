@@ -1,0 +1,24 @@
+#FAQTitle{
+    font-size: 2.5rem;;
+    margin-bottom: 20px ;
+}
+
+.FAQContainer{
+    width: 90%;
+    background-color: #e8e8e8;
+}
+
+.FAQContent{
+    height: 200px;
+}
+
+.backToListBtn{
+    width : 50%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.FAQContent{
+    font-size: 1.3rem;
+}
